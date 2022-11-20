@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+p.abcd{
+    text-align: center;
+    color: red;
+}
+p.large{
+    font-size: 300%;
+    font-family: sans-serif;
+    letter-spacing: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: absolute;
+    padding: 10px 30px 15px;
+    margin: auto;
+    background-color:pink;
+
+}
+.hell{
+    color: red;
+}
+div:nth-of-type(2){
+    background:red;
+    color:yellow;
+}
+li:nth-of-type(2){
+    background:lightsteelblue;
+    color: red;
+    text-decoration: overline;
+    font-style: normal;
+    font-family: sans-serif;
+
+    
+}
+li:nth-of-type(3){
+    background: yellow;
+}
+p:hover{
+    color: lightcoral;
+    background-color: greenyellow;
+}
+p:active{
+    color: black;
+    background-color: white;
+}
+table{
+    border: 2px solid black;
+    width: 40%;
+    height: 40%;
+    border-collapse: initial;
+    }
+
+th{
+
+    border:1em solid rgb(54, 6, 6);
+    color: black;
+
+}
+td{
+    border: 1em solid orange;
+    padding-inline: 25px;
+    text-transform: uppercase;
+    text-overflow:inherit;
+    text-align: justify;
+}
+.last{
+    border: 1px solid orangered;
+    margin: 110px;
+    padding: 100px;
+    background-color: lightblue;
+    background-position: right top;
+    position: static;  
+}
+.hello{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10px;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73a;
+    border: 3px solid #73a;
+    
+}
+.trans{
+    width: 10px;
+    height: 100px;
+    background:rgb(12, 107, 202);
+    transition: width 2s ;
+    transition-delay: 1s;
+}
+.trans:hover{
+    width:200px;
+    height: 100px;
+    transform: rotate(160);
+}
+.button{
+    background-color: rgba(245, 12, 140, 0.932);
+    border: none;
+    border-radius: 30px;
+    color:black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    color: yellow;
+    background-color: red;
+}
+.box{
+    position:absolute;
+    bottom: 50px;
+    width: 300px;
+    border: 1px solid red;
+    margin: 50px;
+    padding: 60px;
+}
+.newspaper{
+    column-count: 4;
+    column-width: 150px;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    column-rule-color:  blue;
+
+}
+h5{
+    column-span: all;
+    text-align: center;
+}
+.container{
+    column-width: 250px;
+    column-gap: 20px;
+}
+.content{
+    background-color: #73a;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+span{
+    color: revert;
+    border: 1px solid black;
+}
